@@ -109,6 +109,37 @@ body{
     /* text-align: center; */
     justify-content: center;
 }
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: .5rem;
+}
+
+.list-inline-item {
+    display: inline-block;
+}
+
+.profile-description .social a {
+    background: #b0b7bf;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center;
+}
+
 .primary {
     width: 70%;
     /* background: red; */
@@ -137,6 +168,19 @@ body{
 p {
     margin-top: 0;
     margin-bottom: 1rem;
+}
+
+.header .social a .svg-inline--fa {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: .875em;
 }
 
 .sr-only {
@@ -218,4 +262,20 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-left: 3rem;
     margin-bottom: 1rem;
+}
+
+.experience .item .title {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.experience .item .title .place {
+    color: #999;
+    font-weight: normal;
+}
+
+.experience .item .title .place a {
+    color: #999;
 }
