@@ -196,4 +196,26 @@ svg:not(:root) {
     vertical-align: -.125em;
 }
 
+/* experince */
+.experience .item {
+    margin-bottom: 30px;
+}
 
+.experience .item .title {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #778492;
+}
+
+.experience ul {
+    margin-top: 0;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
