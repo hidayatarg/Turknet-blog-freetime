@@ -95,6 +95,7 @@ h4 {
 
 .profile-name {
     margin-bottom: 0.5rem;
+    color: #49515a;
 }
 
 .body-container{
@@ -319,6 +320,18 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+/* Education Section */
+.education .item .title {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.education .item .university {
+    font-size: 13px;
+    color: #999;
+    font-weight: 600;
+    padding-left: 25px;
+}
 
 /* Media Queries for different screens */
 /* Extra small devices (phones, 600px and down) */
@@ -330,9 +343,9 @@ h1, h2, h3, h4, h5, h6 {
     .header a.btn-contact{
         margin-left: 15px;
     }
-    .list-inline {
+    /* .list-inline {
         padding-bottom: 1%;
-    }
+    } */
     .body-container {
         display: block;
         
