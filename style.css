@@ -24,7 +24,7 @@ h1, h2, h3 , h4 {
 }
 
 h1 {
-    font-size: 5.4rem;
+    font-size: 4rem;
 }
 
 h1 > span {
@@ -33,7 +33,7 @@ h1 > span {
 }
 
 h2 {
-    font-size: 4.2rem;
+    font-size: 3.2rem;
     font-weight: 700;
 }
 
@@ -45,11 +45,6 @@ h3 {
 h4 {
     font-size:2.0rem;
 }
-
-body{
-
-}
-
 
 /* UTILITIES */
 .container{
@@ -324,3 +319,49 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
+/* Media Queries for different screens */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 800px) {
+    .header {
+        display: block;
+        text-align: center;
+    }
+    .header a.btn-contact{
+        margin-left: 15px;
+    }
+    .list-inline {
+        padding-bottom: 1%;
+    }
+    .body-container {
+        display: block;
+        
+    }
+    .primary {
+        width: 100%;
+    }
+    .secondary {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 800px) {
+    /* .example {background: green;} */
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    /* .example {background: blue;} */
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    /* .example {background: blue;} */
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    /* .example {background: pink;} */
+  }
